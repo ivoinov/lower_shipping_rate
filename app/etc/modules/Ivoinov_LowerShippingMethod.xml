@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ivoinov_LowerShippingMethod>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ivoinov_LowerShippingMethod>
+    </modules>
+</config>

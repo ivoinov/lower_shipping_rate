@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ivoinov_LowerShippingMethod>
+            <version>0.1.0</version>
+        </Ivoinov_LowerShippingMethod>
+    </modules>
+    <global>
+        <helpers>
+            <ivoinov_lowershippingmethod>
+                <class>Ivoinov_LowerShippingMethod_Helper</class>
+            </ivoinov_lowershippingmethod>
+        </helpers>
+        <models>
+            <sales>
+                <rewrite>
+                    <quote_address>Ivoinov_LowerShippingMethod_Model_Sales_Quote_Address</quote_address>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+</config>
